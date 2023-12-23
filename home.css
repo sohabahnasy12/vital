@@ -1,0 +1,272 @@
+ #header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   /*padding: 20px 80px;*/
+
+
+ }
+
+ #navbar {
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+ }
+
+ #navbar li {
+   list-style: none;
+   padding: 20px;
+
+ }
+
+ #navbar li a {
+   text-decoration: none;
+   color: black;
+   font-size: 17px;
+   font-weight: 600;
+ }
+
+ #navbar li a:hover {
+   color: darkseagreen;
+ }
+ #shopping:hover{
+  color: darkseagreen;
+ }
+ .sear{
+  border: 0.1px solid rgba(34, 180, 180, 0.277);
+ 
+ }
+.sec2{
+  /*background-image: url(images/backgroundhome.jpg);*/
+ /* background-size: cover;*/
+  width: 70%;
+  height: 500px;
+  background-color: rgba(34, 180, 180, 0.277);
+}
+
+.sec_img{
+  display: flex;
+}
+
+
+.sec2 h1{
+  font-size: 100px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+/*.sec2 h2{
+  font-size: 100px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  
+  }*/
+.sec2 p {
+  font-size: 40px;
+  margin-left: 30px;
+}
+ .wom_header {
+   text-align: center;
+   padding: 50px;
+ }
+  .des{
+    display: flex;
+  justify-content: space-between;
+  margin: 2px;
+ }
+ div .stars{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ .cart{
+  color:rgba(34, 180, 180, 0.874) ;
+  margin-right: 50px;
+ margin-bottom: 0px;
+  width: 40px;
+ 
+  font-weight: 500px;
+ line-height: 40px;
+
+ 
+  border-radius: 50px;
+ }
+ h4{
+  color:rgba(34, 180, 180, 0.874) ;
+ }
+
+ .sec3 {
+   border: 1px solid rgba(0, 0, 0, 0.216);
+   width: 250px;
+  
+ }
+
+ .sec_women {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .sec4 {
+   border: 1px solid rgba(0, 0, 0, 0.216);
+   width: 300px;
+ }
+
+ .sec_men {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .men_header {
+   text-align: center;
+   padding: 50px;
+ }
+
+ .sec5 {
+   border: 1px solid rgba(0, 0, 0, 0.216);
+   width: 301px;
+ }
+
+ .kids_header {
+   text-align: center;
+   padding: 50px;
+ }
+
+ .sec_kids {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ input {
+   margin: 30px;
+ }
+
+ aside {
+   background-color: rgba(34, 180, 180, 0.277);
+   padding: 10px;
+   border-radius: 30px;
+   width: 150px;
+   text-align: center;
+   margin: 20px 1200px;
+ }
+ aside a {
+  text-decoration: none;
+ }
+ aside a:hover{
+  color: black;
+ }
+ .but1{
+border: none;
+height: 30px;
+border-radius: 50%;
+background-color: rgba(34, 180, 180, 0.166);
+color:rgba(34, 180, 180, 0.847) ;
+margin-right: 40px;
+margin-bottom: 0px;
+ }
+ .but1 :hover{
+  color: #000;;
+ }
+
+ div .st{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .A{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .B{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .C{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .D{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .E{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .F{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .H{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .I{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .J{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+ div .K{
+  color: rgb(228, 214, 024);
+  cursor: pointer;
+  transition:0.4s ease-in-out;
+ }
+
+ .car{
+  position: fixed;
+top: 0;
+left: 100%;
+width: 500px;
+background-color:rgba(34, 180, 180, 0.533) ;
+height: 100vh;
+transition: 0.5s;
+ }
+ .car h3{
+  color: #000;
+  font-weight: 100;
+  margin: 0;
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+ }
+ .car .checkout{
+  position: absolute;
+bottom: 0;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+ }
+ .car .checkout div{
+   background-color: rgba(34, 180, 180, 0.526);
+   width: 100%;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ .car .checkout div:nth-child(2){
+  background-color: #000;
+  color: #fff;
+ }
+ .active .car {
+  left: calc(100% - 500px);
+ }
+ .active #header {
+  transform: translateX(-200px);
+ }
